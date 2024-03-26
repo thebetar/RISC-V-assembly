@@ -1,7 +1,7 @@
 # ---------------------------------
 # author        : Lars Vonk (@thebetar)
 # date          : 2024-03-25
-# description   : This script is used to replace all digits in a string with it's complement
+# description   : This script is used to count the number of decimals in a string.
 # ---------------------------------
 
     .data
