@@ -1,0 +1,21 @@
+pixel:    			              bbbb bbbb gggg gggg rrrr rrrr
+
+register a: 			          0000 0000 0000 0000 0000 0000 0000 0000
+
+register a after blue: 		      0000 0000 0000 0000 0000 0000 bbbb bbbb
+
+temp register: 			          0000 0000 0000 0000 0000 0000 gggg gggg
+
+temp register, shift left by 8:   0000 0000 0000 0000 gggg gggg 0000 0000
+
+add temp register to register a:  0000 0000 0000 0000 gggg gggg bbbb bbbb
+
+temp register after cleansing: 	  0000 0000 0000 0000 0000 0000 0000 0000
+
+temp register after getting red:  0000 0000 0000 0000 0000 0000 rrrr rrrr
+
+temp register, shift left by 16:  0000 0000 rrrr rrrr 0000 0000 0000 0000
+
+add temp register to register a:  0000 0000 rrrr rrrr gggg gggg bbbb bbbb 
+
+
